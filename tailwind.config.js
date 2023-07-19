@@ -3,7 +3,13 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     container: {
-      center: true
+      center: true,
+      screens: {
+        lg: '1140px',
+        xl: '1140px',
+        '2xl': '1140px',
+
+      }
     },
     extend: {
       fontFamily: {
@@ -11,10 +17,10 @@ module.exports = {
         open: ['Open Sans' , 'sans-serif']
       },
       colors: {
-        'gega-red' : '#BC1A45', 
-        'gega-melon' : '#FFD369',
-        'gega-grey' : '#DDDDDD',
-        'gega-white' : '#F7F7F7',
+        'movie-red' : '#BC1A45', 
+        'movie-melon' : '#FFD369',
+        'movie-grey' : '#DDDDDD',
+        'movie-white' : '#F7F7F7',
       },
     },
   },
