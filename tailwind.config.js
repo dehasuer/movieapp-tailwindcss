@@ -22,6 +22,9 @@ module.exports = {
         'movie-grey' : '#DDDDDD',
         'movie-white' : '#F7F7F7',
       },
+      spacing: {
+        '128' : '32rem'
+      },
     },
   },
   plugins: [],
